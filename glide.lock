@@ -1,0 +1,120 @@
+hash: 4479b51ff4c4df4e74b985221c23c94ab59581d8cae9401f230e7f5d7c115d40
+updated: 2017-11-07T16:16:24.273950919+01:00
+imports:
+- name: github.com/aead/siphash
+  version: e404fcfc888570cadd1610538e2dbc89f66af814
+- name: github.com/boltdb/bolt
+  version: 2f1ce7a837dcb8da3ec595b1dac9d0632f0f99e8
+- name: github.com/btcsuite/btclog
+  version: 84c8d2346e9fc8c7b947e243b9c24e6df9fd206a
+- name: github.com/btcsuite/go-flags
+  version: 6c288d648c1cc1befcb90cb5511dcacf64ae8e61
+- name: github.com/btcsuite/go-socks
+  version: 4720035b7bfd2a9bb130b1c184f8bbe41b6f0d0f
+  subpackages:
+  - socks
+- name: github.com/btcsuite/golangcrypto
+  version: 53f62d9b43e87a6c56975cf862af7edf33a8d0df
+  subpackages:
+  - nacl/secretbox
+  - pbkdf2
+  - poly1305
+  - ripemd160
+  - salsa20/salsa
+  - scrypt
+  - ssh/terminal
+- name: github.com/btcsuite/websocket
+  version: 31079b6807923eb23992c421b114992b95131b55
+- name: github.com/davecgh/go-spew
+  version: ecdeabc65495df2dec95d7c4a4c3e021903035e5
+  subpackages:
+  - spew
+- name: github.com/go-errors/errors
+  version: 8fa88b06e5974e97fbf9899a7f86a344bfd1f105
+- name: github.com/halseth/lnd
+  version: 32541436e8acfd92d66dceb1a5070741d691c100
+  subpackages:
+  - chainntnfs
+  - chainntnfs/btcdnotify
+- name: github.com/jrick/logrotate
+  version: a93b200c26cbae3bb09dd0dc2c7c7fe1468a034a
+  subpackages:
+  - rotator
+- name: github.com/kkdai/bstream
+  version: f391b8402d23024e7c0f624b31267a89998fca95
+- name: github.com/lightninglabs/neutrino
+  version: 01dcf832a5783e57ca6bc8d7f06c3456d2e00d88
+  subpackages:
+  - filterdb
+  - headerfs
+- name: github.com/lightningnetwork/lnd
+  version: 3e64ba0394d6dc709e31cf81eca554617eb110d1
+  subpackages:
+  - brontide
+  - chainntnfs
+  - chainntnfs/neutrinonotify
+  - channeldb
+  - lnwallet
+  - lnwire
+  - shachain
+- name: github.com/roasbeef/btcd
+  version: 4b411f0e78f1faa96ae650d886170d018c1835bf
+  subpackages:
+  - addrmgr
+  - blockchain
+  - btcec
+  - btcjson
+  - chaincfg
+  - chaincfg/chainhash
+  - connmgr
+  - database
+  - peer
+  - rpcclient
+  - txscript
+  - wire
+- name: github.com/roasbeef/btcutil
+  version: c3ff179366044979fb9856c2feb79bd4c2184c7a
+  subpackages:
+  - base58
+  - bech32
+  - gcs
+  - gcs/builder
+  - hdkeychain
+  - txsort
+- name: github.com/roasbeef/btcwallet
+  version: 24684c8e93c4b57db10986c021d3a15209678e32
+  subpackages:
+  - chain
+  - internal/helpers
+  - internal/legacy/keystore
+  - internal/legacy/rename
+  - internal/prompt
+  - internal/zero
+  - snacl
+  - waddrmgr
+  - wallet
+  - wallet/internal/txsizes
+  - wallet/txauthor
+  - wallet/txrules
+  - walletdb
+  - walletdb/bdb
+  - wtxmgr
+- name: golang.org/x/crypto
+  version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
+  subpackages:
+  - chacha20poly1305
+  - chacha20poly1305/internal/chacha20
+  - hkdf
+  - poly1305
+  - ripemd160
+- name: golang.org/x/sys
+  version: 686000749eaec0b8855b8eef5336cf63899fe51d
+  subpackages:
+  - unix
+- name: google.golang.org/grpc
+  version: b7f1379d3cbbbeb2ca3405852012e237aa05459e
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+testImports: []

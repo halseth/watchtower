@@ -1,0 +1,25 @@
+package: github.com/halseth/watchtower
+import:
+- package: github.com/boltdb/bolt
+- package: github.com/btcsuite/go-flags
+- package: github.com/halseth/lnd
+  version: 32541436e8acfd92d66dceb1a5070741d691c100
+  subpackages:
+  - chainntnfs
+  - chainntnfs/btcdnotify
+- package: github.com/roasbeef/btcd
+  version: 4b411f0e78f1faa96ae650d886170d018c1835bf
+  subpackages:
+  - chaincfg
+  - rpcclient
+- package: github.com/roasbeef/btcutil
+  version: c3ff179366044979fb9856c2feb79bd4c2184c7a
+- package: github.com/roasbeef/btcwallet
+version: 80e208085bb775908738a343e59e96193c66f5a9
+subpackages:
+- chain
+- waddrmgr
+- wallet
+- walletdb/bdb
+- package: github.com/lightninglabs/neutrino
+  version: 2fb43209a6f54fbf78ba71b50623503db611c371
